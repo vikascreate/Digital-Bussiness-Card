@@ -1,0 +1,218 @@
+body{
+    background-color: #23252C;
+}
+.img{
+position: absolute;
+width: 30%;
+height: 70%;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+top: 10%;
+background: url(./WhatsApp\ Image\ 2022-05-14\ at\ 4.46.06\ PM.jpeg);
+overflow-y: hidden;
+overflow-x: hidden;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top;
+border-radius: 26.2527px 26.2527px 0px 0px;
+}
+.card--mid{
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+top: 60%;
+
+background: #1A1B21;
+}
+.Names{
+    position: absolute;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.Development{
+    position: absolute;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+margin-top: 66px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+
+color: #F3BF99;
+}
+.link{
+    
+position: absolute;
+left:0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+margin-top: 95px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* or 184px */
+
+text-align: center;
+
+color: #F5F5F5;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.email--button{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+ padding: 0 30px 0 30px;
+ gap: 8px;
+
+position: absolute;
+left:12%;
+
+margin-top: 37%;
+/* white */
+
+background: #FFFFFF;
+/* gray/300 */
+
+ border: 1px solid #D1D5DB;
+box-shadow: 0px 11.9812px 23.9624px rgba(0, 0, 0, 0.05);
+border-radius: 12px; 
+}
+.email--img,.Linkedin--img{
+    width: 15px;
+height: 15px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Linkedin--button{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     padding: 0 30px 0 30px;
+     gap: 8px;
+    
+    position: absolute;
+    right:10%;
+    
+    margin-top: 37%;
+    /* white */
+    
+    background: 
+    #5093E2;
+    /* gray/300 */
+    
+    border: 0px;
+    box-shadow: 0px 11.9812px 23.9624px rgba(0, 0, 0, 0.05);
+    border-radius: 12px; 
+}
+.Linkedin--button>h3{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.email--button>h3{
+    color: #1A1B21;
+    font-weight: 500;
+}
+.About,.Intersts{
+    position: absolute;
+left: 12%;
+right: 12%;
+}
+.About{
+    margin-top: 55%;
+}
+.Intersts{
+    margin-top: 100%;
+}
+.About>h3,p,.Intersts>h3,p{
+    color:#FFFFFF;
+}
+.About>h3,.Intersts>h3{
+    font-family: 'Inter';
+font-style: normal;
+margin-bottom: auto;
+padding-bottom: auto;
+font-weight: 700;
+font-size: 25px;
+line-height: 150%;
+}
+.About>p,.Intersts>p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+margin-top: 5%;
+font-size: 15px;
+line-height: 150%;
+}
+.Footer{
+    position: absolute;
+    width:30%;
+    height: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    top: 150%;
+    margin-right: auto;
+
+background: #161619;
+border-radius: 0px 0px 26.2527px 26.2527px;
+}
+.Twitter,.Github,.Facebook,.Instagram{
+    position: absolute;
+    width: 8%;
+    margin-top: 4%;
+   
+}
+.Twitter{
+    left:20%;
+}
+.Instagram{
+    right:20%;
+}
+.Github{
+    left:37%;
+}
+.Facebook{
+    right: 37%;
+}
